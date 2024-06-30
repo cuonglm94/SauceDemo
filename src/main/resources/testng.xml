@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Register">
+
+	<parameter name="browser" value="chrome"/>
+	<test name="TestOnChrome">
+
+		
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test> <!-- SampleTestNG -->
+	
+<!--	<parameter name="browser" value="edge"/>-->
+<!--	<test name="TestOnEdge">-->
+
+		
+<!--		<classes>-->
+<!--			<class name="tests.RegisterTest" />-->
+<!--		</classes>-->
+<!--	</test>  SampleTestNG -->
+</suite> <!-- DemoSuite -->

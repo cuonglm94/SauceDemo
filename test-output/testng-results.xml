@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-08T17:02:54 GMT+07:00" name="Register" finished-at="2024-06-08T17:02:58 GMT+07:00" duration-ms="4549">
+    <groups>
+    </groups>
+    <test started-at="2024-06-08T17:02:54 GMT+07:00" name="TestOnChrome" finished-at="2024-06-08T17:02:58 GMT+07:00" duration-ms="4549">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:tests.LoginTest@5acf93bb]" started-at="2024-06-08T17:02:54 GMT+07:00" name="openBrowser" finished-at="2024-06-08T17:02:58 GMT+07:00" duration-ms="4021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginSuccessfully()[pri:0, instance:tests.LoginTest@5acf93bb]" started-at="2024-06-08T17:02:58 GMT+07:00" name="loginSuccessfully" finished-at="2024-06-08T17:02:58 GMT+07:00" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- TestOnChrome -->
+  </suite> <!-- Register -->
+</testng-results>
